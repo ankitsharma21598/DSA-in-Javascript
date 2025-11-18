@@ -13,3 +13,19 @@ function findElement(arr,target){
 let arr = [12,4,5,33,6,78,8,9];
 console.log(findElement(arr,3));
 ```
+
+## Question 2: How do you find the index of an element in an array?
+
+```
+function findIndexElement(arr,target){
+    for(let i=0;i<arr.length;i++){
+        if(arr[i]===target){
+            return i;
+        }
+    }
+    return 0;
+}
+
+let arr = [12,4,5,33,6,78,8,9];
+console.log(findIndexElement(arr,33));
+```

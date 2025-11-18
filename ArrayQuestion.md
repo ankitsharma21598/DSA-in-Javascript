@@ -1,4 +1,4 @@
-##Question 1: How do you check if an element exists in an array?
+## Question 1: How do you check if an element exists in an array?
 
 ```
 function findElement(arr,target){

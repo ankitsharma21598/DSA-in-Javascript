@@ -33,7 +33,7 @@ console.log(findIndexElement(arr,33));
 ## How to delete, add & update elements from a specific index?
 
 **🎯 In One Line:**
-**slice = copy**
+**slice = copy** \n
 **splice = change**
 
 ```

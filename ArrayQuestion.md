@@ -140,3 +140,117 @@ zero → no change
 const array = [12,4,5,33,6,78,8,9];
 console.log(array.reverse()); //[9, 8, 78, 6,33, 5, 4, 12]
 ```
+
+## Map, Filter & Reduce
+
+**🔵 1. map()**
+
+✔ Creates a new array
+
+✔ Transforms each element
+
+✔ Length stays the same
+
+```
+const array = [12,4,5,33,6,78,8,9];
+const newArray = array.map((ele,i)=> ele*2);
+console.log(newArray); //[24, 8, 10, 66, 12, 156, 16, 18]
+```
+
+**🟢 2. filter()**
+
+✔ Creates a new array
+
+✔ Keeps elements that pass the condition
+
+✔ Length may change
+
+```
+const array = [12,4,5,33,6,78,8,9];
+const newArray = array.filter((ele,i)=>ele > 10);
+console.log(newArray); //[ 12, 33, 78 ]
+```
+
+**🔴 3. reduce()**
+
+✔ Reduces array to a single value
+
+✔ Very powerful (sum, product, max, min, average, object aggregation, etc.)
+
+```
+const array = [12,4,5,33,6,78,8,9];
+
+const newArray = array.reduce((accumulator,ele,i)=>{
+    return accumulator + ele;
+},0)
+
+console.log(newArray);
+```
+
+**🎯 Final One-Line Explanation**
+
+map → transform
+
+filter → select
+
+reduce → combine
+
+## 🔵 flat() in JavaScript
+
+flat() is used to flatten nested arrays — meaning it removes inner arrays and brings all values into a single array up to a specified depth.
+
+```
+array.flat(depth)
+```
+
+```
+const arr = [1, [2, [3, 4]], 5];
+console.log(arr.flat(2));// Output: [1, 2, 3, 4, 5]
+
+
+const arr = [1, [2, [3, [4, 5]]]];
+console.log(arr.flat(Infinity));
+// Output: [1, 2, 3, 4, 5]
+
+```
+
+**🎯 One-line Explanation**
+
+flat() → makes nested arrays into one single-level array (based on depth).
+
+## filter() vs find()
+
+**🔍 filter()**
+
+✔ Returns all matching elements
+
+✔ Output is always an array
+
+✔ If no match → returns [] (empty array)
+
+```
+const array = [12,4,5,33,6,78,8,9];
+const newArray = array.filter((ele,i)=>ele > 10);
+console.log(newArray); //[ 12, 33, 78 ]
+
+```
+
+**🎯 find()**
+
+✔ Returns the first matching element
+
+✔ Output is a single value (NOT an array)
+
+✔ If no match → returns undefined
+
+```
+const array = [12,4,5,33,6,78,8,9];
+const newArray = array.find((ele,i)=>ele > 20);
+console.log(newArray); // 33
+```
+
+## Practice Questions
+
+1. [Two Sum](https://leetcode.com/problems/two-sum/)
+2. [Majority Element](https://leetcode.com/problems/majority-element/)
+3. [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array)

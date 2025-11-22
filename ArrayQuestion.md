@@ -254,3 +254,5 @@ console.log(newArray); // 33
 1. [Two Sum](https://leetcode.com/problems/two-sum/)
 2. [Majority Element](https://leetcode.com/problems/majority-element/)
 3. [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array)
+4. [Squares of a Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array/)
+5. [Find Pivot Index](https://leetcode.com/problems/find-pivot-index)

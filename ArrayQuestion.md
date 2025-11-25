@@ -256,3 +256,6 @@ console.log(newArray); // 33
 3. [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array)
 4. [Squares of a Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array/)
 5. [Find Pivot Index](https://leetcode.com/problems/find-pivot-index)
+6. [Move Zeroes](https://leetcode.com/problems/move-zeroes/)
+7. [Remove Element](https://leetcode.com/problems/remove-element)
+8. [Max Consecutive Ones](https://leetcode.com/problems/max-consecutive-ones/)

@@ -96,3 +96,31 @@ function fib(n){
 console.log(fib(5));
 
 ```
+
+### Question 6: Missing Number in an Array
+
+**Given an array nums containing n distinct numbers in the range [0, n], return the only number in the range that is missing from the array.**
+
+**The formula n \* (n + 1) / 2 (often written as n(n + 1) / 2) is used to calculate the sum of the first 'n' natural numbers.**
+
+```
+
+function missingNumber(nums){
+    let n = nums.length;
+    let sum=0;
+    for(let i=0;i<n;i++){
+        sum+=nums[i];
+    }
+
+    return n*(n+1)/2 -sum;
+
+}
+
+console.log(missingNumber([3,0,1])); //2
+console.log(missingNumber([9,6,4,2,3,5,7,0,1]));//8
+
+```
+
+### Practice Questions
+
+1. [Count Odd Numbers in an Interval Range](https://leetcode.com/problems/count-odd-numbers-in-an-interval-range/)

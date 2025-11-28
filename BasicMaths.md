@@ -124,3 +124,9 @@ console.log(missingNumber([9,6,4,2,3,5,7,0,1]));//8
 ### Practice Questions
 
 1. [Count Odd Numbers in an Interval Range](https://leetcode.com/problems/count-odd-numbers-in-an-interval-range/)
+
+2. [Fizz Buzz](https://leetcode.com/problems/fizz-buzz)
+
+3. [Power of Two](https://leetcode.com/problems/power-of-two)
+
+4. [Find Square root of a Number](https://leetcode.com/problems/sqrtx)

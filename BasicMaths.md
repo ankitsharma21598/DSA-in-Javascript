@@ -121,6 +121,41 @@ console.log(missingNumber([9,6,4,2,3,5,7,0,1]));//8
 
 ```
 
+### Question 7: Reverse a String without using built-in methods.
+
+```
+function reverseStr(str){
+    let result ="";
+    for(let i=str.length-1;i>=0;i--){
+        result+=str[i];
+    }
+    return result;
+
+}
+console.log("Reverse",reverseStr("Ankit"));
+
+```
+
+### Question 8: Find the first non-repeating character in a string
+
+```
+function nonRepeat(str){
+    let map={};
+    let n=str.length;
+    for(let i=0;i<n;i++){
+        map[str[i]]=(map[str[i]]||0)+1;
+    }
+    for(let key in map){
+        if(map[key]===1){
+            return key;
+        }
+    }
+
+}
+
+console.log(nonRepeat("AAnkitt"));
+```
+
 ### Practice Questions
 
 1. [Count Odd Numbers in an Interval Range](https://leetcode.com/problems/count-odd-numbers-in-an-interval-range/)

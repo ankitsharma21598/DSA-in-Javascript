@@ -41,9 +41,87 @@ console.log(str.replaceAll("Vishal", "Sujit")); // "Sujit is Best Frontend Devel
 ```
 
 ### Substring of a String
+
 ```
 let name="Ankit";
 console.log(name.substring(2,4)); //ki
 console.log(name.slice(-2)); //it
 
 ```
+
+### Split and Join
+
+✅ **1. split()**
+
+split() is a string method that converts a string into an array, based on a separator.
+
+```
+let str ="Hello World";
+let result =str.split(" ");
+console.log("Result:",result); //Result: [ 'Hello', 'World' ]
+```
+
+✅ **2. join()**
+
+join() is an array method that converts an array into a string, with a given separator.
+
+```
+let str =[ 'Hello', 'World' ];
+let result =str.join(" ");
+console.log("Result:",result); //Result: Hello World
+
+```
+
+### String Start and End
+
+```
+let str ="Hello World";
+let result =str.startsWith("Hello");
+console.log("Result:",result); // Result: true
+
+
+let str ="Hello World";
+let result =str.endsWith("World");
+console.log("Result:",result); //Result: true
+```
+
+## Trim and Case Conversion
+
+```
+let str =" Hello World ";
+const trimStr = str.trim();
+const trimStrStart = str.trimStart();
+const trimStrEnd = str.trimEnd();
+console.log(trimStr, trimStr.length); //Hello World 11
+console.log(str.trim().toLowerCase()); //hello world
+console.log(str.trim().toUpperCase()); //HELLO WORLD
+```
+
+## Convert Number and Object to String
+
+```
+let num =123
+let obj={
+    name:"Ankit"
+}
+console.log( num.toString()); //123
+console.log(JSON.stringify(obj)); //{"name":"Ankit"}
+```
+
+## Concatenate Strings
+
+```
+
+let firstName="Ankit";
+let lastName="Sharma";
+console.log(firstName +" "+ lastName);//Ankit Sharma
+console.log(`${firstName} ${lastName} is a Best Developer`);//Ankit Sharma is a Best Developer
+console.log(firstName.concat(" ",lastName, " is a", " Best"));//Ankit Sharma is a Best
+
+```
+
+# Practice Questions
+
+1. [ Find the Index of the First Occurrence in a String](https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/)
+
+2. [Reverse String](https://leetcode.com/problems/reverse-string/)

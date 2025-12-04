@@ -129,3 +129,7 @@ console.log(firstName.concat(" ",lastName, " is a", " Best"));//Ankit Sharma is 
 3. [Valid Anagram](https://leetcode.com/problems/valid-anagram)
 
 4. [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix)
+
+5. [Merge Strings Alternately](https://leetcode.com/problems/merge-strings-alternately/)
+
+6. [Length of Last Word](https://leetcode.com/problems/length-of-last-word/)

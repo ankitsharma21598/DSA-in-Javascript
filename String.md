@@ -133,3 +133,7 @@ console.log(firstName.concat(" ",lastName, " is a", " Best"));//Ankit Sharma is 
 5. [Merge Strings Alternately](https://leetcode.com/problems/merge-strings-alternately/)
 
 6. [Length of Last Word](https://leetcode.com/problems/length-of-last-word/)
+
+7. [Valid Palindrome](https://leetcode.com/problems/valid-palindrome)
+
+8. [String Compression](https://leetcode.com/problems/string-compression)

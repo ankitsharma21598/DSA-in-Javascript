@@ -137,3 +137,9 @@ console.log(firstName.concat(" ",lastName, " is a", " Best"));//Ankit Sharma is 
 7. [Valid Palindrome](https://leetcode.com/problems/valid-palindrome)
 
 8. [String Compression](https://leetcode.com/problems/string-compression)
+
+9. [Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string)
+
+10. [Reverse Vowels of a String](https://leetcode.com/problems/reverse-vowels-of-a-string)
+
+11. [Rotate String](https://leetcode.com/problems/rotate-string/)

@@ -30,5 +30,29 @@
 
 // console.log(myMap); //Map(0) {}
 
-console.log("Weak Map");
+// console.log("Weak Map");
 
+// let weakMap = new WeakMap();
+// let obj = { name: "ankit" };
+
+// weakMap.set(obj, "Developer");
+
+// obj = null; // Remove reference
+
+// // weakMap will automatically remove the entry
+
+// const set = new Set();
+// set.add(10);
+// set.add("ankit");
+// set.add({ age: 25 });
+
+// console.log(set.size); // 3
+// console.log(set);      // Iterable, shows all values
+
+const weakSet = new WeakSet();
+
+let obj = { name: "ankit" };
+weakSet.add(obj);
+
+obj = null; // remove reference
+console.log(weakSet); // WeakSet automatically removes the object

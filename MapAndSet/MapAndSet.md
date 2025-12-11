@@ -176,3 +176,112 @@ function processUser(userObj) {
 👉 **WeakMap** → Only object keys, auto garbage collection, non-iterable
 
 ---
+
+# ✅ **Set vs WeakSet in JavaScript**
+
+## **1. Quick Comparison Table**
+
+| Feature                | **Set**                                  | **WeakSet**                                                                  |
+| ---------------------- | ---------------------------------------- | ---------------------------------------------------------------------------- |
+| **What it stores**     | Any type (primitive + objects)           | **Only objects**                                                             |
+| **Garbage Collection** | Values stay until manually removed       | Objects are **garbage collected automatically** if no other reference exists |
+| **Iterable?**          | Yes (can loop using `for…of`, `forEach`) | No (NOT iterable)                                                            |
+| **Size property**      | Has `size`                               | Does NOT have `size`                                                         |
+| **Use Cases**          | Unique values list                       | Track objects without preventing garbage collection                          |
+
+---
+
+# ✅ **2. Example: Set**
+
+```js
+const set = new Set();
+set.add(10);
+set.add("ankit");
+set.add({ age: 25 });
+
+console.log(set.size); // 3
+console.log(set); // Iterable, shows all values
+```
+
+### ✔ Set supports:
+
+- primitives
+- objects
+- iteration
+- size checking
+
+---
+
+# ✅ **3. Example: WeakSet**
+
+```js
+const weakSet = new WeakSet();
+
+let obj = { name: "ankit" };
+weakSet.add(obj);
+
+obj = null; // remove reference
+// WeakSet automatically removes the object
+```
+
+### ✔ WeakSet features:
+
+- Stores **only objects**
+- Object auto-removed when no reference exists
+- **Not iterable** (cannot be logged fully)
+- No `.size`
+
+---
+
+# 🎯 **4. Why WeakSet Exists**
+
+WeakSets help prevent **memory leaks** when you want to track objects _temporarily_.
+
+Example:
+Frameworks use WeakSets to store DOM elements that may disappear.
+
+---
+
+# 🔥 **5. Real Use Case Example**
+
+### **Track which DOM nodes have been processed**
+
+```js
+const processedNodes = new WeakSet();
+
+function process(node) {
+  if (processedNodes.has(node)) return;
+
+  // do something
+  processedNodes.add(node);
+}
+```
+
+If a node gets removed from DOM and nothing references it →
+WeakSet removes it automatically.
+
+---
+
+# 🎯 **Final Summary**
+
+### **Set**
+
+- Can store any type
+- Iterable
+- Not garbage collected automatically
+- Has size
+
+### **WeakSet**
+
+- Stores only objects
+- Automatically garbage collected
+- Not iterable
+- No size
+
+---
+
+# Practice Questions:
+
+1. [Contains Duplicate](https://leetcode.com/problems/contains-duplicate)
+
+2. [Intersection of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays/)

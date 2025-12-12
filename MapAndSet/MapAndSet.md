@@ -285,3 +285,7 @@ WeakSet removes it automatically.
 1. [Contains Duplicate](https://leetcode.com/problems/contains-duplicate)
 
 2. [Intersection of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays/)
+
+3. [Distribute Candies](https://leetcode.com/problems/distribute-candies/)
+
+4. [Longest Consecutive Sequence ](https://leetcode.com/problems/longest-consecutive-sequence/)(Revision)

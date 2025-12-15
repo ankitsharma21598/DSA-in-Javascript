@@ -2,7 +2,7 @@
 
 Unless you convert them (e.g., `Object.keys`, `Object.entries`).
 
-# ✅ **Iterables → use `for...of`**
+## ✅ **Iterables → use `for...of`**
 
 Arrays, Strings, Maps, Sets, etc.
 
@@ -289,3 +289,13 @@ WeakSet removes it automatically.
 3. [Distribute Candies](https://leetcode.com/problems/distribute-candies/)
 
 4. [Longest Consecutive Sequence ](https://leetcode.com/problems/longest-consecutive-sequence/)(Revision)
+
+5. [Happy Number](https://leetcode.com/problems/happy-number)
+
+6. [First Unique Character in a String](https://leetcode.com/problems/first-unique-character-in-a-string) (Revision)
+
+7. [First Unique Character in a String](https://leetcode.com/problems/first-unique-character-in-a-string/)
+
+8. [Find Common Characters](https://leetcode.com/problems/find-common-characters)
+
+9. [Sort Characters By Frequency](https://leetcode.com/problems/sort-characters-by-frequency)

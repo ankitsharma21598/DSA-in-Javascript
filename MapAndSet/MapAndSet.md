@@ -299,3 +299,9 @@ WeakSet removes it automatically.
 8. [Find Common Characters](https://leetcode.com/problems/find-common-characters)
 
 9. [Sort Characters By Frequency](https://leetcode.com/problems/sort-characters-by-frequency)
+
+10. [Valid Sudoku](https://leetcode.com/problems/valid-sudoku/)
+
+11. [First Unique Character in a String](https://leetcode.com/problems/first-unique-character-in-a-string)
+
+12. [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters)

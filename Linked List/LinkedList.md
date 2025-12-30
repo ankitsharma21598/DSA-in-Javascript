@@ -149,12 +149,6 @@ list.print(); // 5 -> 20 -> null
 
 > "A linked list stores elements dynamically using pointers, allowing efficient insertion and deletion compared to arrays."
 
----
+# Practice Questions:
 
-If you want next:
-
-* 🔄 Reverse Linked List (step-by-step)
-* 🧠 Interview problems with solutions
-* 📊 Doubly & Circular Linked List
-
-Just tell me 👍
+1. [Middle of the Linked List]()

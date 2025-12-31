@@ -6,9 +6,9 @@ A **Linked List** is a linear data structure where elements (nodes) are stored *
 
 ## 🧠 Why Linked List?
 
-* Dynamic size (no fixed length)
-* Efficient insert/delete (no shifting like arrays)
-* Useful when frequent modifications are needed
+- Dynamic size (no fixed length)
+- Efficient insert/delete (no shifting like arrays)
+- Useful when frequent modifications are needed
 
 ❌ Slower access than arrays (no index-based access)
 
@@ -18,8 +18,8 @@ A **Linked List** is a linear data structure where elements (nodes) are stored *
 
 Each node contains:
 
-* `value` → data
-* `next` → reference to next node
+- `value` → data
+- `next` → reference to next node
 
 ```js
 class Node {
@@ -89,12 +89,12 @@ class LinkedList {
   // Print list
   print() {
     let current = this.head;
-    let result = '';
+    let result = "";
     while (current) {
-      result += current.value + ' -> ';
+      result += current.value + " -> ";
       current = current.next;
     }
-    console.log(result + 'null');
+    console.log(result + "null");
   }
 }
 ```
@@ -138,10 +138,10 @@ list.print(); // 5 -> 20 -> null
 
 ## 🔥 Common Interview Questions
 
-* Reverse a linked list
-* Detect a cycle (Floyd’s Cycle Detection)
-* Find middle of linked list
-* Remove Nth node from end
+- Reverse a linked list
+- Detect a cycle (Floyd’s Cycle Detection)
+- Find middle of linked list
+- Remove Nth node from end
 
 ---
 
@@ -151,4 +151,8 @@ list.print(); // 5 -> 20 -> null
 
 # Practice Questions:
 
-1. [Middle of the Linked List]()
+1. [Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list)
+
+2. [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list)
+
+3. [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)

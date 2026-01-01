@@ -156,3 +156,9 @@ list.print(); // 5 -> 20 -> null
 2. [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list)
 
 3. [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)
+
+4. [Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list)
+
+5. [Remove Duplicates from Sorted List II](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/)
+
+6. [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle)

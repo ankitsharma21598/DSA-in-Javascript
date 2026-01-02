@@ -162,3 +162,9 @@ list.print(); // 5 -> 20 -> null
 5. [Remove Duplicates from Sorted List II](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/)
 
 6. [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle)
+
+7. [Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii)
+
+8. [Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists)
+
+9. [Next Greater Node In Linked List](https://leetcode.com/problems/next-greater-node-in-linked-list)

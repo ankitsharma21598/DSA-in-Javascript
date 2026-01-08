@@ -168,3 +168,6 @@ list.print(); // 5 -> 20 -> null
 8. [Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists)
 
 9. [Next Greater Node In Linked List](https://leetcode.com/problems/next-greater-node-in-linked-list)
+
+10. [Remove Zero Consecutive Nodes from Linked List](https://leetcode.com/problems/remove-zero-sum-consecutive-nodes-from-linked-list/)
+

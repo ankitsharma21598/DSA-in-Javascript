@@ -169,5 +169,8 @@ list.print(); // 5 -> 20 -> null
 
 9. [Next Greater Node In Linked List](https://leetcode.com/problems/next-greater-node-in-linked-list)
 
-10. [Remove Zero Consecutive Nodes from Linked List](https://leetcode.com/problems/remove-zero-sum-consecutive-nodes-from-linked-list/)
+10. [Remove Zero Consecutive Nodes from Linked List](https://leetcode.com/problems/remove-zero-sum-consecutive-nodes-from-linked-list/)(Need Revision)
 
+11. [Reverse Linked List II](https://leetcode.com/problems/reverse-linked-list-ii)(Need Revision)
+
+12. [Odd Even Linked List](https://leetcode.com/problems/odd-even-linked-list)(Revision Required)

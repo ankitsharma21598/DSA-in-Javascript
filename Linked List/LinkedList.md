@@ -174,3 +174,8 @@ list.print(); // 5 -> 20 -> null
 11. [Reverse Linked List II](https://leetcode.com/problems/reverse-linked-list-ii)(Need Revision)
 
 12. [Odd Even Linked List](https://leetcode.com/problems/odd-even-linked-list)(Revision Required)
+
+13. [Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs)
+
+14. [Reorder List](https://leetcode.com/problems/reorder-list)
+

@@ -60,5 +60,21 @@ function myPow(x, n) {
 console.log(myPow(4, 2));
 ```
 
-3. [Create a function which returns the sum of digits of a number (e.g., sumOfDigits(453) is 12)
-]()
+3. Create a function which returns the sum of digits of a number (e.g., sumOfDigits(453) is 12)
+
+```js
+function sumOfDigits(n) {
+  // Base Case
+  if (n === 0) {
+    return 0;
+  }
+  let num = n % 10;
+  return num + sumOfDigits(Math.floor(n / 10));
+}
+
+console.log(sumOfDigits(453)); // 12
+```
+
+4. Create a function which returns the number of digits in a number (e.g., countDigits(453) is 3).
+
+

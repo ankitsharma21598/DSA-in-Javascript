@@ -78,24 +78,33 @@ console.log(BinarySearchRecur(arr, 6)); // 4
 // Find floor and ceil value of X in an array
 
 let floorCeil = (arr, target) => {
-  let sortedArray = arr.sort((a, b) => a - b);
+  let sortedArray = [...arr].sort((a, b) => a - b);
   console.log(sortedArray);
+
   let start = 0;
   let end = sortedArray.length - 1;
-  let floor = -1,
-    ceil = -1;
-  while (start < end) {
-    let mid = Math.floor((start + end) / 2);
+  let ceil = -1,
+    floor = -1;
 
-    if (target === arr[mid]) {
-      floor = mid;
-      ceil = mid;
-      return [ceil, mid];
-    } else if (target > arr[mid]) {
-      start = mid - 1;
+  while (start <= end) {
+    let mid = Math.floor((start + end) / 2);
+    if (sortedArray[mid] === target) {
+      return [sortedArray[mid], sortedArray[mid]];
+    } else if (sortedArray[mid] < target) {
+      ceil = sortedArray[mid];
+      start = mid + 1;
     } else {
-      end = mid + 1;
+      floor = sortedArray[mid];
+      end = mid - 1;
     }
   }
-  return [ceil,floor];
+
+  return [ceil, floor];
 };
+console.log(floorCeil(arr, 5)); // [ 2, 6 ]
+
+
+// Practice Questions
+
+
+

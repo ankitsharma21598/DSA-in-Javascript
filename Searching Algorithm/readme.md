@@ -85,3 +85,41 @@ let BinarySearchRecurHelper = (sortedArray, start, end, target) => {
 
 console.log(BinarySearchRecur(arr, 6)); // 4
 ```
+
+## Find floor and ceil value of X in an array
+
+```js
+let floorCeil = (arr, target) => {
+  let sortedArray = [...arr].sort((a, b) => a - b);
+  console.log(sortedArray);
+
+  let start = 0;
+  let end = sortedArray.length - 1;
+  let ceil = -1,
+    floor = -1;
+
+  while (start <= end) {
+    let mid = Math.floor((start + end) / 2);
+    if (sortedArray[mid] === target) {
+      return [sortedArray[mid], sortedArray[mid]];
+    } else if (sortedArray[mid] < target) {
+      ceil = sortedArray[mid];
+      start = mid + 1;
+    } else {
+      floor = sortedArray[mid];
+      end = mid - 1;
+    }
+  }
+
+  return [ceil, floor];
+};
+console.log(floorCeil(arr, 5)); // [ 2, 6 ]
+```
+
+## Practice Questions
+
+### Level 1
+
+1. [Sqrt(x)](https://leetcode.com/problems/sqrtx)
+
+2. []()

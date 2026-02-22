@@ -122,4 +122,12 @@ console.log(floorCeil(arr, 5)); // [ 2, 6 ]
 
 1. [Sqrt(x)](https://leetcode.com/problems/sqrtx)
 
-2. []()
+2. [First Bad Version](https://leetcode.com/problems/first-bad-version)
+
+3. [Find the Index of the First Occurrence in a String](https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string)
+
+4. [Binary Search](https://leetcode.com/problems/binary-search)
+
+5. [Search Insert Position](https://leetcode.com/problems/search-insert-position)
+
+6. [Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array)

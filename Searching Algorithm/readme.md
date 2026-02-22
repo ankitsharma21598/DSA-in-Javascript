@@ -131,3 +131,7 @@ console.log(floorCeil(arr, 5)); // [ 2, 6 ]
 5. [Search Insert Position](https://leetcode.com/problems/search-insert-position)
 
 6. [Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array)
+
+### Level 2
+
+7. [Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array)

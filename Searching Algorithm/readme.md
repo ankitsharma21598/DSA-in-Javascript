@@ -134,4 +134,6 @@ console.log(floorCeil(arr, 5)); // [ 2, 6 ]
 
 ### Level 2
 
-7. [Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array)(Revision needs)
+7. [Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array) (Revision needs)
+
+8. [Single Element in a Sorted Array](https://leetcode.com/problems/single-element-in-a-sorted-array)

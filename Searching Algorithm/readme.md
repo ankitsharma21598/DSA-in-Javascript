@@ -137,3 +137,7 @@ console.log(floorCeil(arr, 5)); // [ 2, 6 ]
 7. [Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array) (Revision needs)
 
 8. [Single Element in a Sorted Array](https://leetcode.com/problems/single-element-in-a-sorted-array)
+
+9. [Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix) (Revision needs)
+
+10. [Find Peak Element](https://leetcode.com/problems/find-peak-element)

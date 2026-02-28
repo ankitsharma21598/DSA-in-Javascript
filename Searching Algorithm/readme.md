@@ -140,4 +140,5 @@ console.log(floorCeil(arr, 5)); // [ 2, 6 ]
 
 9. [Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix) (Revision needs)
 
-10. [Find Peak Element](https://leetcode.com/problems/find-peak-element)
+10. [Find Peak Element](https://leetcode.com/problems/find-peak-element) (Revision needs)
+

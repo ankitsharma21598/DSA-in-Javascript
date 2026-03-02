@@ -142,3 +142,4 @@ console.log(floorCeil(arr, 5)); // [ 2, 6 ]
 
 10. [Find Peak Element](https://leetcode.com/problems/find-peak-element) (Revision needs)
 
+11. [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/)

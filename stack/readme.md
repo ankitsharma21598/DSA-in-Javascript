@@ -2,7 +2,7 @@
 
 A stack is a data structure that stores items in a Last-In, First-Out (LIFO) order.
 
-```js 
+```js
 let data = [];
 let currentSize = data.length;
 let max = 5;
@@ -42,7 +42,14 @@ console.log(pop()); //[ 2, 3 ]
 console.log(pop()); //[ 2 ]
 console.log(pop()); //[]
 console.log(pop()); //'Stack is already empty!'
-
 ```
+
 ## Practice Questions
+
 1. [Remove All Adjacent Duplicate in String](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/)
+
+2. [Valid Parentheses](https://leetcode.com/problems/valid-parentheses)
+
+3. [Backspace String Compare](https://leetcode.com/problems/backspace-string-compare)
+
+4. [Next Greater Element I](https://leetcode.com/problems/next-greater-element-i)

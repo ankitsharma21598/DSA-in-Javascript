@@ -55,3 +55,5 @@ console.log(pop()); //'Stack is already empty!'
 4. [Next Greater Element I](https://leetcode.com/problems/next-greater-element-i)
 
 5. [Online Stock Span](https://leetcode.com/problems/online-stock-span)
+
+6. [Next Greater Element II](https://leetcode.com/problems/next-greater-element-ii)

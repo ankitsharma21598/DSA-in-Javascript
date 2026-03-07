@@ -57,3 +57,5 @@ console.log(pop()); //'Stack is already empty!'
 5. [Online Stock Span](https://leetcode.com/problems/online-stock-span)
 
 6. [Next Greater Element II](https://leetcode.com/problems/next-greater-element-ii)
+
+7. [Remove K Digits](https://leetcode.com/problems/remove-k-digits)

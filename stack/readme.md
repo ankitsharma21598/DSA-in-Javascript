@@ -58,4 +58,6 @@ console.log(pop()); //'Stack is already empty!'
 
 6. [Next Greater Element II](https://leetcode.com/problems/next-greater-element-ii)
 
-7. [Remove K Digits](https://leetcode.com/problems/remove-k-digits)
+7. [Remove K Digits](https://leetcode.com/problems/remove-k-digits)(Revision Needed)
+
+8. [Sum of Subarray Minimums](https://leetcode.com/problems/sum-of-subarray-minimums)(Revision Needed)

@@ -259,3 +259,8 @@ console.log(newArray); // 33
 6. [Move Zeroes](https://leetcode.com/problems/move-zeroes/)
 7. [Remove Element](https://leetcode.com/problems/remove-element)
 8. [Max Consecutive Ones](https://leetcode.com/problems/max-consecutive-ones/)
+
+## More Practice Questions
+
+1. [Contains Duplicate](https://leetcode.com/problems/contains-duplicate)
+2. [Valid Anagram](https://leetcode.com/problems/valid-anagram)

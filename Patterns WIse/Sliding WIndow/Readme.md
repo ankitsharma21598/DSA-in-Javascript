@@ -47,6 +47,6 @@ for (let right = 0; right < arr.length; right++) {
 
 1. [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/description/)
 
-2. []()
+2. [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters)
 
-3. []()
+3. [Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement)

@@ -9,3 +9,5 @@
 4. [Minimum Time to Complete Trips](https://leetcode.com/problems/minimum-time-to-complete-trips)
 
 5. [Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array)
+
+6. [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array)
